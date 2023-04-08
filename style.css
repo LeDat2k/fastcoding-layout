@@ -1,14 +1,40 @@
-
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+a img {
+  border: none;
+}
+
+li > a {
+  color: #707070;
+  text-decoration: none;
+  
 }
 
 /* button */
-/* best seller */
+.common-button {
+  display: inline-block;
+  border: 1px solid #333;
+  color: #ffff;
+  background: #333;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
 
+.common-button:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* best seller */
