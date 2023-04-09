@@ -73,10 +73,8 @@ li.nav-item > a {
 .community__japan-title {
   color: #c5c5c5;
   font-size: 14px;
-  margin: 0 0 6px; 
+  margin: 0 0 6px;
 }
-
-
 
 .keyvisual__title {
   font-size: 72px;
@@ -85,11 +83,9 @@ li.nav-item > a {
   font-size: 20px;
   margin: -8px 0 0;
 }
-.keyvisual{
+.keyvisual {
   padding: 250px 0 250px 0;
 }
-
-
 
 .brand__english-title,
 .best-seller__english-title,
@@ -104,7 +100,7 @@ li.nav-item > a {
 }
 
 .seller-item__category {
-  color: #F4584B;
+  color: #f4584b;
   font-size: 14px;
   margin: 0 0 5px;
 }
@@ -135,4 +131,23 @@ li.nav-item > a {
 
 section.best-seller {
   background: url(img/common/bg_testimonial.jpg);
+}
+
+.guide__content {
+  color: #707070;
+  font-size: 14px;
+  margin: 3rem;
+}
+
+.brand__img1 {
+  padding-right: 200px;
+}
+
+section {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+section.top-nav {
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
