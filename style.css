@@ -233,6 +233,17 @@ li.li-brown {
   color: #333;
   font-weight: bold;
 }
+.testimonial__dot > ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 3rem;
+}
+
+div.carousel-inner {
+  padding-bottom: 50px;
+}
+
+
 
 .blog-item {
   padding: 0 30px;
@@ -308,14 +319,4 @@ div.community__img > img {
 .a-link:hover {
   color: #c5c5c5;
 }
-.testimonial__dot > ul {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  font-size: 3rem;
-}
-
-div.carousel-inner {
-  padding-bottom: 50px;
-}
-
 
