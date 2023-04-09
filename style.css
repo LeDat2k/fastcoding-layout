@@ -119,3 +119,20 @@ li.nav-item > a {
   font-size: 14px;
   text-decoration: line-through;
 }
+
+/* .seller-item {
+  display: flex;
+} */
+
+.float-img {
+  float: left;
+  margin-right: -29px; /* add some space between images */
+}
+
+.brand {
+  padding: 80px 0 205px;
+}
+
+section.best-seller {
+  background: url(img/common/bg_testimonial.jpg);
+}
