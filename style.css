@@ -85,13 +85,18 @@ li.nav-item > a {
 
 .keyvisual__title {
   font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 .keyvisual__description {
   font-size: 20px;
-  margin: -8px 0 0;
+  margin: -8px 70px 40px;
 }
 .keyvisual {
   padding: 250px 0 250px 0;
+}
+.keyvisual__button {
+  margin-left: 100px;
 }
 
 .blog-item__category,
@@ -112,6 +117,10 @@ li.nav-item > a {
   color: #c5c5c5;
   font-size: 14px;
   text-decoration: line-through;
+}
+
+section.top-nav {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 section.brand {
