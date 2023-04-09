@@ -161,6 +161,7 @@ section.top-nav {
   font-weight: 700;
 }
 
+.testimonial__description,
 .advantage-item__description {
   color: #707070;
   font-size: 14px;
@@ -206,3 +207,18 @@ li.li-brown {
   font-weight: bold;
 }
 
+i.testimonial-icon {
+  font-size: 70px;
+  color: #f4584b;
+}
+
+.testimonial__description > p {
+  padding: 0 100px;
+}
+.testimonial {
+  margin: 0 90px;
+}
+.testimonial__author {
+  color: #333;
+  font-weight: bold;
+}
