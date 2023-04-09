@@ -1,17 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-  box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN",
+    "Hiragino Mincho Pro", "Times New Roman", "游明朝", YuMincho, "メイリオ",
+    Meiryo, Georgia, serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
 }
 
 li {
@@ -45,12 +45,6 @@ li > a {
 
 /* best seller */
 
-/* background */
-
-section.keyvisual {
-  background: url(img/common/bg_testimonial.jpg);
-}
-
 .copyright__logo,
 .top-nav__logo {
   width: 7rem;
@@ -77,17 +71,6 @@ li.nav-item > a {
   margin: 0 0 6px;
 }
 
-.keyvisual__title {
-  font-size: 72px;
-}
-.keyvisual__description {
-  font-size: 20px;
-  margin: -8px 0 0;
-}
-.keyvisual {
-  padding: 250px 0 250px 0;
-}
-
 .brand__english-title,
 .best-seller__english-title,
 .guide__english-title,
@@ -98,6 +81,17 @@ li.nav-item > a {
 .community__english-title {
   font-size: 27px;
   font-weight: 500;
+}
+
+.keyvisual__title {
+  font-size: 72px;
+}
+.keyvisual__description {
+  font-size: 20px;
+  margin: -8px 0 0;
+}
+.keyvisual {
+  padding: 250px 0 250px 0;
 }
 
 .blog-item__category,
@@ -120,21 +114,50 @@ li.nav-item > a {
   text-decoration: line-through;
 }
 
-/* .seller-item {
-  display: flex;
-} */
-
-.float-img {
-  float: left;
-  margin-right: -29px; /* add some space between images */
+section.brand {
+  padding: 60px 0 200px;
 }
 
-.brand {
-  padding: 80px 0 205px;
+header {
+  background: url(img/common/bg_keyvisual.jpg) no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 90px;
 }
 
 section.best-seller {
   background: url(img/common/bg_testimonial.jpg);
+  padding: 60px 0;
+}
+
+section.guide {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: -100px;
+}
+
+section.advantages {
+  background-color: #fbfbfb;
+  padding: 60px 0;
+  margin: 70px 0;
+}
+
+section.collection {
+  padding-bottom: 60px;
+}
+
+section.testimonial {
+  background: url(img/common/bg_testimonial.jpg);
+  padding: 50px 0 60px;
+  margin: 0 90px;
+}
+section.blog {
+  padding: 60px 0;
+}
+
+section.community {
+  padding: 30px 0 60px;
 }
 
 .guide__content {
@@ -145,15 +168,6 @@ section.best-seller {
 
 .brand__img1 {
   padding-right: 200px;
-}
-
-section {
-  margin-top: 200px;
-  margin-bottom: 200px;
-}
-section.top-nav {
-  margin-top: 20px;
-  margin-bottom: 0px;
 }
 
 .advantage-item__title {
@@ -211,20 +225,17 @@ li.li-brown {
   font-weight: bold;
 }
 
-i.testimonial-icon {
-  font-size: 70px;
-  color: #f4584b;
-}
 
 .testimonial__description > p {
-  padding: 0 100px;
-}
-.testimonial {
-  margin: 0 90px;
+  padding: 0 9rem;
 }
 .testimonial__author {
   color: #333;
   font-weight: bold;
+}
+
+.blog-item {
+  padding: 0 30px;
 }
 
 .blog-item__title {
@@ -233,11 +244,11 @@ i.testimonial-icon {
   font-weight: bold;
   margin: 15px 0 15px;
 }
-.blog-item__author{
+.blog-item__author {
   font-size: 14px;
   margin: 15px 0 15px;
 }
-.blog-item__author-name{
+.blog-item__author-name {
   color: #707070;
   font-weight: bold;
 }
@@ -246,12 +257,34 @@ i.testimonial-icon {
   color: #707070;
   font-size: 14px;
 }
-h3.community__organ-title {
-  background-color: #333;
-  color: #fff;
-  padding: 14px 200px;
-  margin: 0 50px;
+
+p.community__text {
+  padding: 0 9rem;
 }
+
+.community__organ-title > p {
+  margin-right: 35rem;
+  margin-left: 35rem;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+div.community__img-list > div {
+  padding: 0;
+  margin: 0;
+}
+
+section.community > img {
+  width: 100%;
+}
+div.community__img > img {
+  max-width: 100%;
+  height: auto;
+}
+/* .community__img:hover {
+  box-shadow: #427a1e;
+} */
 
 .copyright-nav {
   font-size: 14px;
@@ -262,3 +295,27 @@ h3.community__organ-title {
   color: #707070;
   font-size: 13px;
 }
+
+.shot-line {
+  height: 1.5px;
+  background-color: #c5c5c5;
+  margin: 20px auto;
+}
+.a-link {
+  text-decoration: none;
+  color: #707070;
+}
+.a-link:hover {
+  color: #c5c5c5;
+}
+.testimonial__dot > ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 3rem;
+}
+
+div.carousel-inner {
+  padding-bottom: 50px;
+}
+
+
