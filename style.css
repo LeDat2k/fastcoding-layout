@@ -151,3 +151,15 @@ section.top-nav {
   margin-top: 20px;
   margin-bottom: 0px;
 }
+
+.advantage-item__title {
+  color: #333;
+  font-size: 18px;
+  margin: 40px 0 15px 0;
+  font-weight: 700;
+}
+
+.advantage-item__description {
+  color: #707070;
+  font-size: 14px;
+}
