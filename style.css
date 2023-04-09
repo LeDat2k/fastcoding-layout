@@ -1,4 +1,10 @@
 * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
   box-sizing: border-box;
 }
 
@@ -19,7 +25,6 @@ a img {
 li > a {
   color: #707070;
   text-decoration: none;
-  
 }
 
 /* button */
@@ -28,6 +33,7 @@ li > a {
   border: 1px solid #333;
   color: #ffff;
   background: #333;
+  padding: 0.75rem 5rem 0.75rem 5rem;
   text-align: center;
   transition: background 0.3s, color 0.3s;
 }
@@ -38,3 +44,78 @@ li > a {
 }
 
 /* best seller */
+
+/* background */
+
+section.keyvisual {
+  background: url(img/common/bg_testimonial.jpg);
+}
+
+.top-nav__logo {
+  width: 7rem;
+}
+li.nav-item > a {
+  color: #707070;
+}
+
+.brand__description {
+  color: #707070;
+  font-size: 14px;
+}
+
+.brand__japan-title,
+.best-seller__japan-title,
+.guide__japan-title,
+.advantages__janpan-title,
+.collection__japan-title,
+.testimonial__japan-title,
+.blog__japan-title,
+.community__japan-title {
+  color: #c5c5c5;
+  font-size: 14px;
+  margin: 0 0 6px; 
+}
+
+
+
+.keyvisual__title {
+  font-size: 72px;
+}
+.keyvisual__description {
+  font-size: 20px;
+  margin: -8px 0 0;
+}
+.keyvisual{
+  padding: 250px 0 250px 0;
+}
+
+
+
+.brand__english-title,
+.best-seller__english-title,
+.guide__english-title,
+.advantages__english-title,
+.collection__english-title,
+.testimonial__english-title,
+.blog__english-title,
+.community__english-title {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.seller-item__category {
+  color: #F4584B;
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+.seller-item__name {
+  color: #707070;
+  font-size: 16px;
+  margin: 0 0 3px;
+}
+
+.seller-item__old-price {
+  color: #c5c5c5;
+  font-size: 14px;
+  text-decoration: line-through;
+}
