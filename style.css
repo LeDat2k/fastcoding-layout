@@ -99,6 +99,7 @@ li.nav-item > a {
   font-weight: 500;
 }
 
+.blog-item__category,
 .collection-item__category,
 .seller-item__category {
   color: #f4584b;
@@ -161,6 +162,7 @@ section.top-nav {
   font-weight: 700;
 }
 
+.blog-item__text,
 .testimonial__description,
 .advantage-item__description {
   color: #707070;
@@ -221,4 +223,24 @@ i.testimonial-icon {
 .testimonial__author {
   color: #333;
   font-weight: bold;
+}
+
+.blog-item__title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 15px;
+}
+.blog-item__author{
+  font-size: 14px;
+  margin: 15px 0 15px;
+}
+.blog-item__author-name{
+  color: #707070;
+  font-weight: bold;
+}
+
+.blog-item__link {
+  color: #707070;
+  font-size: 14px;
 }
